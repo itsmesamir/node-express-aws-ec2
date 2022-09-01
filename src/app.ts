@@ -18,7 +18,7 @@ config();
 
 app.get("/", (req, res) => {
   res.send(
-    `<H1>Hello World this is Samir Alam.</H1> <H1>Hosting from AWS EC2.</H1>`
+    `<H1>Hello World.</H1> <H1>Hosting from AWS EC2.</H1>`
   );
 });
 
